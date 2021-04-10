@@ -1,0 +1,29 @@
+.post-item {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__title {
+    display: flex;
+
+    .comments-count {
+      margin-left: 20px;
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+
+      .comment-icon {
+        font-size: 18px;
+        margin-right: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.comment-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+
+  &:hover {
+    background: #ececec;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

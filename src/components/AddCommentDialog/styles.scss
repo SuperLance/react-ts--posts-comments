@@ -1,0 +1,45 @@
+.add-comment-dialog {
+  padding-bottom: 20px;
+
+  .dialog-title {
+    display: flex;
+    position: relative;
+    padding: 24px;
+    align-items: center;
+
+    h4 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .close-icon {
+      min-width: 0;
+      position: absolute;
+      right: 24px;
+      border-radius: 1px;
+      padding: 5px;
+      background: #E4E6EF;
+      color: #2C50EE;
+
+      .MuiSvgIcon-root {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .add-comment-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .form-input {
+      margin: 10px 0;
+    }
+
+    .form-action {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 0;
+    }
+  }
+}
